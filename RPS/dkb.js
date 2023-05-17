@@ -18,7 +18,7 @@ function computerPlay() {
   return weapons[weaponIndex];
 }
 
-// Function to update score and display result
+//some thing java script Function to update score and display result
 function updateScore(playerWeapon, computerWeapon) {
   clearTimeout(timeout);
   if (playerWeapon) {
@@ -34,7 +34,7 @@ function updateScore(playerWeapon, computerWeapon) {
       playerScore++;
       playerScoreElem.innerHTML = `Player: ${playerScore}`;
     } else {
-      resultElem.innerHTML = 'Computer wins!';
+      resultElem.innerHTML = ' oops Computer wins!';
       computerScore++;
       computerScoreElem.innerHTML = `Computer: ${computerScore}`;
     }
