@@ -2,37 +2,32 @@
   list-style-type: none;
   padding: 0;
 }
-
 #taskList li {
   margin-bottom: 10px;
   background-color: #f4f4f4;
   padding: 10px;
   border-radius: 5px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content:space-between;
+  align-items:center;
 }
-
 #taskList li button {
   margin-left: 10px;
-  background-color: #ff6961;
+  background-color:#ff6961;
   border: none;
   color: #fff;
   padding: 5px 10px;
   border-radius: 3px;
   cursor: pointer;
 }
-
 #taskList li button:hover {
   background-color: #ff4d4d;
 }
-
 #taskInput {
   margin-bottom: 10px;
   padding: 5px;
   width: 200px;
 }
-
 #addTaskButton {
   background-color: #4CAF50;
   color: #fff;
@@ -41,7 +36,6 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
 #addTaskButton:hover {
   background-color: #45a049;
 }
