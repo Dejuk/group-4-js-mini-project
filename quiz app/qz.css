@@ -1,0 +1,89 @@
+body {
+    background-color: #b18d9c;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #a190c4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333333;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .options button:hover {
+    background-color: #19949a;
+    color: #ffffff;
+  }
+  
+  .tick {
+    color: rgb(19, 133, 19);
+    border: 2px solid green;
+  }
+  
+  .cross {
+    color: red;
+    border: 2px solid red;
+  }
+  
+  #result {
+    margin-top: 30px;
+  }
+  
+  #score {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #replay,
+  #quit {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #replay:hover,
+  #quit:hover {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
