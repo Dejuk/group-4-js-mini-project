@@ -5,7 +5,6 @@ const resultElem = document.querySelector('#result');
 const playAgainBtn = document.querySelector('#play-again');
 const countdownElem = document.querySelector('#countdown');
 const computerChoiceElem = document.querySelector('#computer-choice');
-
 const weapons = ['rock', 'paper', 'scissors'];
 let playerScore = 0;
 let computerScore = 0;
