@@ -16,7 +16,6 @@ function computerPlay() {
   const weaponIndex = Math.floor(Math.random() * weapons.length);
   return weapons[weaponIndex];
 }
-
 //some thing java script Function to update score and display result
 function updateScore(playerWeapon, computerWeapon) {
   clearTimeout(timeout);
