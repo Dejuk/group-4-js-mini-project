@@ -1,7 +1,7 @@
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
-
+//let reeetbtn=document 
 let hour = 00;
 let minute = 00;
 let second = 00;
